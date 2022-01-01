@@ -11,11 +11,13 @@ To properly run this project on your system some commands need to follow step by
 3. Initialize Apache and mysql through xampp control.
 4. upload the SQL file with the exact name of the database to the phpmyadmin.
 5. Go to your project file in xampp/htdocs/"your project name"/admin
+-----------------------------------------------------------------------------------------------
 6. open cmd in this loaction and type "composer update --no-scripts". It will update all the packages according to your system.
 7. then find the .env.example file and make a copy of this file . Rename it to .env
 8. Open cmd again and run "php artisan key:generate"
 9. open .env file and set DB_DATABASE="with your database name".
-10.open cmd and run "php artisan serve". this will give a ip address of the server. copy it and paste it to your browser. voilà you got your project running.
+10. open cmd and run "php artisan serve". this will give a ip address of the server. copy it and paste it to your browser. voilà you got your project running.
+-----------------------------------------------------------------------------------------------
 11. Now follow step 6-10 for "xampp/htdocs/"your project name"/site" folder also.
 
 
